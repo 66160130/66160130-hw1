@@ -1,5 +1,7 @@
 header {
     background-color: rgb(211, 211, 211);
+    margin: 0;
+    padding: 0;
 }
 
 .menu {
@@ -38,7 +40,7 @@ header {
 }
 
 .img-home {
-    width: 1536px;
+    width: 1480px;
     
 
 }
