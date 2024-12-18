@@ -1,7 +1,7 @@
 header {
     background-color: rgb(211, 211, 211);
+    animation: slideIn 1s ease-in-out; /* ใช้ slideIn */
 }
-
 .menu {
     display: flex; /* จัดเรียงเป็นแนวนอน */
     gap: 90px; /* ระยะห่างระหว่างปุ่ม */
@@ -116,3 +116,23 @@ h2 {
 footer p {
     margin-top: 20rem;
   }
+  /* เพิ่ม Keyframes Animation */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
